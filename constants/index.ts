@@ -35,12 +35,7 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "React Query",
-      Image: "/reactquery.png",
-      width: 80,
-      height: 80,
-    },
+    
     {
       skill_name: "Type Script",
       Image: "/ts.png",
@@ -82,16 +77,19 @@ export const Skill_data = [
   
   export const Socials = [
     {
-      name: "Discord",
-      src: "/instagram.svg",
+      name: "Linkedin",
+      src: "/linkedin.jpeg",
+      url: "https://www.linkedin.com/in/tushar-pareenja-348a7b254/"
     },
     {
-      name: "Facebook",
-      src: "/facebook.svg",
+      name: "Github",
+      src: "/github.png",
+      url: "https://github.com/tusharpareenja"
     },
     {
-      name: "Instagram",
-      src: "/discord.svg",
+      name: "Gmail",
+      src: "/gmail.png",
+      url: "mailto:tusharpareenja@gmail.com"
     },
   ];
   
@@ -141,12 +139,6 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "React Query",
-      Image: "/reactquery.png",
-      width: 80,
-      height: 80,
-    },
-    {
       skill_name: "Type Script",
       Image: "/ts.png",
       width: 80,
@@ -185,51 +177,24 @@ export const Skill_data = [
       width: 55,
       height: 55,
     },
-    {
-      skill_name: "Postger SQL",
-      Image: "/postger.png",
-      width: 70,
-      height: 70,
-    },
+
     {
       skill_name: "My SQL",
       Image: "/mysql.png",
       width: 70,
       height: 70,
     },
+
     {
-      skill_name: "Prisma",
-      Image: "/prisma.webp",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Graphql",
-      Image: "/graphql.png",
+      skill_name: "Appwrite",
+      Image: "/appwrite.png",
       width: 80,
       height: 80,
     },
   ];
   
   export const Full_stack = [
-    {
-      skill_name: "React Native",
-      Image: "/ReactNative .png",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Tauri",
-      Image: "/tauri.svg",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Docker",
-      Image: "/docker.webp",
-      width: 70,
-      height: 70,
-    },
+    
   
     {
       skill_name: "Figma",
@@ -244,8 +209,20 @@ export const Skill_data = [
   
   export const Other_skill = [
     {
-      skill_name: "Go",
-      Image: "/go.png",
+      skill_name: "C++",
+      Image: "/c++.png",
+      width: 60,
+      height: 60,
+    },
+    {
+      skill_name: "Java",
+      Image: "/java.jpeg",
+      width: 60,
+      height: 60,
+    },
+    {
+      skill_name: "Python",
+      Image: "/python.jpeg",
       width: 60,
       height: 60,
     },
