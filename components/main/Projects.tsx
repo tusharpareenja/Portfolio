@@ -10,7 +10,7 @@ const Projects = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         My Projects
       </h1>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-10">
         <ProjectCard
           src="/travel.jpeg"
           title="Trekify"
@@ -21,13 +21,11 @@ const Projects = () => {
           title="Dizilo"
           description="A one-stop platform designed for game developers! This website allows users to browse and purchase game assets effortlessly, offering a comprehensive collection that caters to every need—from characters and environments to soundtracks and special effects. Beyond being an asset marketplace, it fosters a thriving community for game developers to showcase their projects, exchange ideas, and collaborate. Whether you're building your first game or enhancing an existing project, this platform is your ultimate resource for creativity and connection in the game development world."
         />
-
         <ProjectCard
           src="/promptopia.jpeg"
           title="Promptopia"
           description="Promptopia is a community-driven platform where users can upload and share useful prompts, allowing others to discover and utilize them. The platform is built using Next.js for the frontend and MongoDB for data storage."
         />
-        
       </div>
     </div>
   );
