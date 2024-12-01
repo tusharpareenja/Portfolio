@@ -21,6 +21,12 @@ const Projects = () => {
           title="Dizilo"
           description="A one-stop platform designed for game developers! This website allows users to browse and purchase game assets effortlessly, offering a comprehensive collection that caters to every need—from characters and environments to soundtracks and special effects. Beyond being an asset marketplace, it fosters a thriving community for game developers to showcase their projects, exchange ideas, and collaborate. Whether you're building your first game or enhancing an existing project, this platform is your ultimate resource for creativity and connection in the game development world."
         />
+
+        <ProjectCard
+          src="/promptopia.jpeg"
+          title="Promptopia"
+          description="Promptopia is a community-driven platform where users can upload and share useful prompts, allowing others to discover and utilize them. The platform is built using Next.js for the frontend and MongoDB for data storage."
+        />
         
       </div>
     </div>
